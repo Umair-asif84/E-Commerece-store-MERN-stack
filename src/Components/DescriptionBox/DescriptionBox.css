@@ -1,0 +1,51 @@
+/* Overall styling for the description box */
+.descriptionbox {
+    width: 100%;
+    max-width: 83%;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Styling for the navigation section */
+.descriptionbox-navigator {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.descriptionbox-nav-box {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.descriptionbox-nav-box:hover {
+    background-color: #f0f0f0;
+}
+
+.descriptionbox-nav-box.fade {
+    color: #aaa;
+    cursor: not-allowed;
+}
+
+.descriptionbox-nav-box.fade:hover {
+    background-color: #f9f9f9;
+}
+
+/* Styling for the description text */
+.descriptionbox-description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.descriptionbox-description p {
+    margin: 0;
+}
